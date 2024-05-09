@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000; // Defina a porta do servidor
 
+const tarefas = []
 
 // Rota para adicionar uma nova tarefa
 app.post('/tarefas', (req, res) => {
